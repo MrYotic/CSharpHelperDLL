@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Drawing;
 
 namespace Yotic
 {
-    public class Grafics
+    public class SharePath
     {
-        public static void SetRoundedShape(System.Windows.Forms.Control control, int radius, bool topLeft, bool topRight, bool bottomLeft, bool bottomRight)
+        public static void SetRoundedShape(Control control, int radius, bool topLeft, bool topRight, bool bottomLeft, bool bottomRight)
         {
             try
             {
